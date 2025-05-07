@@ -13,8 +13,7 @@ import Confetti from 'react-confetti'
 
 function App() {
   //state values
-  // const [currentWord, setCurrentWord] = useState(()=>getRandomWord())
-  const [currentWord, setCurrentWord] = useState('react')
+  const [currentWord, setCurrentWord] = useState(()=>getRandomWord())
   const [guessedLetters, setGuessedLetters] = useState([])
   
   
