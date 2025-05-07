@@ -45,8 +45,8 @@ function App() {
 
 
 
-const lostLanguagesString = lostLanguages.length === 1 ? null
-: lostLanguages.length === 1 ? `${lostLanguages.slice(0).join(', ')} `
+const lostLanguagesString = 
+lostLanguages.length === 1 ? `${lostLanguages.slice(0).join(', ')} `
 : `${lostLanguages.slice(0,-1).join(', ') }& ${lostLanguages[lostLanguages.length - 1]}`
 
 
